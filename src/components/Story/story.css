@@ -1,0 +1,37 @@
+#story {
+    max-width: 1360px;
+    margin: auto;
+}
+#story>div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#story>p {
+    padding: 0 20px;
+}
+#story h1 {
+    margin: auto;
+    margin-top: 24px;
+    text-align: center;
+    max-width: 650px;
+}
+#story p {
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 400;
+    color: #004AAD;
+}
+#story p:last-child {
+    max-width: 944px;
+    width: 100%;
+    margin-top: 40px;
+    font-family: Biski-Regular;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.5px;
+    text-align: center;
+}
+#story h4 {
+    margin-bottom: 132px;
+}

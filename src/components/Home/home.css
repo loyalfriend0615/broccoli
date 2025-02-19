@@ -1,0 +1,20 @@
+#homepage {
+    max-width: 1360px;
+    min-height: 688px;
+    margin: 0 40px 221px 40px;
+    background-image: url("../../assets/img/background.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+#homepage>* {
+    width: 50%;
+}
+#homepage img {
+    margin: 100px auto auto 50px;
+    border: solid 10px white;
+    box-sizing: border-box;
+    border-radius: 10px;
+}

@@ -1,0 +1,61 @@
+#hiscoin .landing:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+#hiscoin .landing {
+    margin: auto;
+    max-width: 1360px;
+    width: 100%;
+    min-height: 688px;
+    background-image: url('../../assets/img/background.png');
+    background-position: center;
+    overflow: auto;
+    border-radius: 8px;
+}
+#hiscoin .landing img {
+    padding: 40px 30px;
+    width: 550px;
+    height: 550px;
+    float: right;
+}
+#hiscoin h2 {
+    margin: 105px 10px 0 56px;
+}
+#hiscoin .landing p {
+    margin: 14px 10px 0 59px;
+    font-family: Biski-Regular;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.5px;
+    color: #004AAD;
+}
+#hiscoin .legend>div:first-child {
+    display: flex;
+    flex-wrap: wrap;
+}
+#hiscoin .legend>div>div:last-child {
+    margin-top: 160px;
+}
+#hiscoin .legend>div>div:last-child p {
+    margin: 14px 10px 0 59px;
+    font-family: Biski-Regular;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.5px;
+    color: #7E7E7E;
+}
+#hiscoin .legend>div>div {
+    width: 49%;
+}
+#hiscoin .legend>p {
+    font-family: Biski-Regular;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 500;
+    margin-left: 56px;
+    color: #747474;
+}
+#hiscoin .legend {
+    margin-bottom: 100px;
+}

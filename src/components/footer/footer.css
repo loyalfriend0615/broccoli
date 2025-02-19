@@ -1,0 +1,94 @@
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+
+#footer {
+    background-image: url("../../assets/img/footer-background.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 497px;
+}
+#footer>div:first-child {
+    display: flex; 
+}
+#disclaimer span {
+    color: red;
+    font-family: Biski-Regular;
+    font-size: 16px;
+}
+#footer>div:first-child>div{
+    width: 50%;
+}
+#footer-menu {
+    display: flex;
+}
+#footer-menu>div{
+    width: 50%;
+}
+#disclaimer {
+    padding: 30px 77px;
+}
+#disclaimer p {
+    color: #004AAD;
+    font-size: 16px;
+    font-weight: 700;
+}
+#footer>div:last-child {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 70px;
+}
+#footer>div:last-child p {
+    font-size: 18px;
+    font-weight: 700;
+    color: #004AAD;
+}
+#social {
+    padding: 10px 20px;
+}
+#social a {
+    display: inline-block;
+    padding: 0 20px;
+}
+#social a i {
+    color: #004AAD;
+}
+
+@media (max-width: 767px) {
+    #footer>div:first-child {
+        flex-wrap: wrap;
+    }
+    #footer>div:first-child>div {
+        width: 100%;
+    }
+    #footer-menu {
+        padding: 0 77px;
+    }
+}
+
+@media (max-width: 673px) {
+    #footer>div:last-child p {
+        display: none;
+    }
+    #footer>div:first-child>div {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #footer>div:last-child {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #social {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    #social a {
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 460px) {
+    #footer-menu {
+        padding-left: 0px!important;
+        padding-right: 0px!important;
+    }
+}

@@ -1,0 +1,99 @@
+#photos {
+    max-width: 1360px;
+    margin: auto;
+}
+#photos>div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#photos>div:nth-child(2) {
+    max-width: 1360px;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 160px;
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: 86px;
+}
+#photos h1 {
+    margin: auto;
+    margin-top: 24px;
+    text-align: center;
+    max-width: 650px;
+}
+#photos>div:nth-child(2) img:first-child {
+    float: left;
+}
+#photos>div:nth-child(2) img:nth-child(2) {
+    float: right;
+}
+#photos>div:nth-child(2) img:last-child {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: solid 5px #ffe9a0dc;
+    border-radius: 8px;
+}
+#photos>div:last-child {
+    max-width: 1360px;
+    width: 100%;
+    padding: 0 160px;
+    box-sizing: border-box;
+    display: none;
+    gap: 10px;
+}
+
+@media (max-width: 1089px) {
+    #photos>div:nth-child(2) {
+        display: none;
+    }
+    #photos>div:nth-child(2) img:first-child {
+        margin-bottom: 24px;
+    }
+    #photos>div:nth-child(2) img:last-child {
+        top: 0;
+        left: 0;
+        transform: none;
+        border-width: 2px;
+    }
+    #photos>div:last-child img {
+        border: solid 8px #ffe9a0dc;
+        border-radius: 4px;
+    }
+    #photos>div:last-child {
+        display: flex;
+        margin-bottom: 86px;
+    }
+}
+
+@media (max-width: 867px) {
+    #photos>div:last-child img {
+        max-width: 100%;
+        height: auto;
+    }
+    #photos>div:last-child>* {
+        max-width: 100%;
+    }
+    #photos>div:last-child>div {
+        text-align: center;
+    }
+    #photos>div:last-child {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 767px) {
+    #photos>div:last-child {
+        padding: 0 80px;
+        align-items: center;
+    }
+}
+
+@media (max-width: 640px) {
+    #photos>div:last-child {
+        padding: 0 30px;
+        align-items: center;
+    }
+}

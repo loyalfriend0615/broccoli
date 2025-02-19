@@ -1,0 +1,13 @@
+#video h1 {
+    margin: auto;
+    margin-top: 24px;
+    text-align: center;
+}
+#video>div {
+    display: flex;
+    justify-content: center;
+}
+#video video {
+    max-width: 100%;
+    margin-bottom: 120px;
+}

@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'Biski-Bold';
+  src: url('./assets/fonts/Biski-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Biski-Regular';
+  src: url('./assets/fonts/Biski-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#root {
+  max-width: 1440px;
+  margin: auto;
+  font-family: Biski-Regular;
+  overflow: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  line-height: 121px;
+  font-size: 88px;
+  color: #004AAD;
+  font-weight: 700;
+  margin: 105px auto auto 56px;
+  font-family: Biski-Bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h2 {
+  font-size: 64px;
+  font-family: Biski-Bold;
+  font-weight: 700;
+  line-height: 83.2px;
+  color: #004AAD;
 }
 
-.App-link {
-  color: #61dafb;
+h3 {
+  font-size: 32px;
+  font-family: Biski-Bold;
+  font-weight: 700;
+  line-height: 44px;
+  color: #004AAD;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h4 {
+  font-size: 24px;
+  margin-left: 20px;
+  color: #004AAD;
+}
+
+h5 {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  margin-top: 16px;
+  margin-left: 20px;
+  color: #004AAD;
+}
+
+h6 {
+  font-size: 16px;
 }
