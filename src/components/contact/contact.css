@@ -1,0 +1,67 @@
+#contact h2 {
+    text-align: center;
+}
+.contactForm {
+    max-width: 1280px;
+    margin: 0 40px 30px 40px;
+    background-image: url("../../assets/img/background.png");
+    background-position: center;
+    border-radius: 8px;
+}
+form h3 {
+    text-align: center;
+    padding-top: 90px;
+}
+form input, form textarea {
+    display: block;
+    max-width: 1064px;
+    width: 90%;
+    margin: 20px auto;
+    background: none;
+    border: none;
+}
+form textarea {
+    min-height: 300px;
+    resize: vertical;
+}
+form input:focus, form textarea:focus {
+    border: none;
+    outline: none;
+    border-bottom: solid 1px #004AAD;
+    background-color: rgba(0,74,173,0.3);
+}
+form input, form textarea {
+    font-family: Biski-Regular;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    border-bottom: solid 1px #004AAD;
+}
+form button {
+    width: 335px;
+    height: 70px;
+    background-color: #004AAD;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-family: Biski-Regular;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+}
+form button:hover {
+    cursor: pointer;
+}
+form div {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding-bottom: 90px;
+}
+
+@media (max-width: 767px) {
+    .contactForm {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
