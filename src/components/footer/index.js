@@ -11,7 +11,7 @@ function Footer() {
                 <div id="disclaimer">
                     <img src={logo} width="80px" height="80px" alt="The logend of broccoli cz's dog" />
                     <p>
-                        <span>Disclaimer:</span> Broccoli memes are intended to serve as an expression of support for and engagement with the ideals and beliefs embodied by the symbol "$Broccoli" and the associated artwork. They are not intended to constitute an investment opportunity, investment contract, or security of any kind.
+                        <Link to='/disclaimer'><span>Disclaimer:</span></Link>  Broccoli memes are intended to serve as an expression of support for and engagement with the ideals and beliefs embodied by the symbol "$Broccoli" and the associated artwork. They are not intended to constitute an investment opportunity, investment contract, or security of any kind.
                     </p>
                     <p>
                         TheBroccoliMeme.com is not political and is in no way affiliated with any political campaign, political office, or governmental agency
@@ -49,6 +49,9 @@ function Footer() {
                         </h5>
                         <h5>
                             <Link to='privacy-policy'>PRIVACY & POLICY</Link>
+                        </h5>
+                        <h5>
+                            <Link to='disclaimer'>DISCLAIMER</Link>
                         </h5>
                         <h5>
                             <Link to='contact'>CONTACT US</Link>
