@@ -21,25 +21,25 @@ function Footer() {
                     <div id="site">
                         <h4>Site</h4>
                         <h5>
-                            <Link to='/' >HOME</Link>
+                            <a href='/' >HOME</a>
                         </h5>
                         <h5>
-                            <Link to='/story' >HIS STORY</Link>
+                            <a href='/#story' >HIS STORY</a>
                         </h5>
                         <h5>
-                            <Link to='/photos' >HIS PHOTOS</Link>
+                            <a href='/#photos' >HIS PHOTOS</a>
                         </h5>
                         <h5>
-                            <Link to='/video' >HIS VIDEO</Link>
+                            <a href='/#video' >HIS VIDEO</a>
                         </h5>
                         <h5>
-                            <Link to='/his-coin' >HIS COIN $BROC</Link>
+                            <a href='/#hiscoin' >HIS COIN $BROC</a>
                         </h5>
                         <h5>
-                            <Link to='/why-broc' >WHY $BROC</Link>
+                            <a href='/#whybroc' >WHY $BROC</a>
                         </h5>
                         <h5>
-                            <Link to='/whats-next' >WHAT'S NEXT</Link>
+                            <a href='/#whatsnext' >WHAT'S NEXT</a>
                         </h5>
                     </div>
                     <div id="legal">

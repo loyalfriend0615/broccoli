@@ -18,7 +18,7 @@ function Header() {
                 <ul className="nav-list">
                     <div className="nav-left">
                         <li className="nav-item">
-                            <Link to='/' id="home">HOME</Link>
+                            <a href='/' id="home">HOME</a>
                         </li>
                         <li className="nav-item dropdown">
                             <button className="dropdown-toggle">
@@ -26,13 +26,13 @@ function Header() {
                             </button>
                             <ul className="dropdown-menu">
                                 <li>
-                                    <Link to='/story'>HIS STORY</Link>
+                                    <a href='/#story'>HIS STORY</a>
                                 </li>
                                 <li>
-                                    <Link to='/photos'>HIS PHOTOS</Link>
+                                    <a href='/#photos'>HIS PHOTOS</a>
                                 </li>
                                 <li>
-                                    <Link to='/video'>HIS VIDEO</Link>
+                                    <a href='/#video'>HIS VIDEO</a>
                                 </li>
                             </ul>
                         </li>
@@ -45,13 +45,13 @@ function Header() {
                             </button>
                             <ul className="dropdown-menu">
                                 <li>
-                                    <Link to='/his-coin'>HIS COIN $BROC</Link>
+                                    <a href='#hiscoin'>HIS COIN $BROC</a>
                                 </li>
                                 <li>
-                                    <Link to='/why-broc'>WHY $BROC</Link>
+                                    <a href='#whybroc'>WHY $BROC</a>
                                 </li>
                                 <li>
-                                    <Link to='/whats-next'>WHAT'S NEXT</Link>
+                                    <a href='#whatsnext'>WHAT'S NEXT</a>
                                 </li>
                             </ul>
                         </li>

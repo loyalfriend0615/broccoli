@@ -22,13 +22,17 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/story" element={<Story />} />
-          <Route path="/photos" element={<Photos />} />
-          <Route path="/video" element={<Video />} />
-          <Route path="/his-coin" element={<Hiscoin />} />
-          <Route path="/whats-next" element={<WhatsNext />} />
-          <Route path="/why-broc" element={<WhyBroc />} />
+          <Route exact path="/" element={
+            <>
+              <Home />
+              <Story />
+              <Photos />
+              <Video />
+              <Hiscoin />
+              <WhyBroc />
+              <WhatsNext />
+            </>
+            } />
           <Route path="/contact" element={<Contact />} />
           <Route path="/terms-conditions" element={<Terms_Conditions />} />
           <Route path="/privacy-policy" element={<Privacy_Policy />} />
