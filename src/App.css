@@ -71,3 +71,12 @@ h6 {
   border-right: solid 1px gray;
   position: relative;
 }
+.copy button:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 1279px) {
+  h1 {
+    font-size: 3.5em;
+  }
+}

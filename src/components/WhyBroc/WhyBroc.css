@@ -18,6 +18,7 @@
 }
 .why {
     max-width: 670px;
+    width: 70%!important;
     min-height: 405px;
     border: solid 4px #004AAD;
     border-radius: 8px;

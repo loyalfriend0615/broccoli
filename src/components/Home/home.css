@@ -35,3 +35,11 @@
     right: 30px;
     transform: translateY(50%);
 }
+
+@media (max-width: 1279px) {
+    #homepage img {
+        margin-left: 10px;
+        width: 90%;
+        height: auto;
+    }
+}
