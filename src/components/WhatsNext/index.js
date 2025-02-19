@@ -5,9 +5,9 @@ import './WhatsNext.css';
 function WhatsNext() {
     return (
         <div id="whatsnext">
-            <h1>
+            <h2>
                 Whats Next
-            </h1>
+            </h2>
             <p>
                 🔥 <b>Strengthen the Pack</b> - The coin is already live, but the community is what makes it unstoppable. <br/>
                 🌎 <b>Grow the Community</b> - Because memes mean more when we meme together. <br/>

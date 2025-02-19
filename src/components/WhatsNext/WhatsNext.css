@@ -1,7 +1,7 @@
 #whatsnext {
     margin-bottom: 200px;
 }
-#whatsnext h1 {
+#whatsnext h2 {
     text-align: center;
 }
 #whatsnext p {
@@ -12,4 +12,18 @@
     max-width: 1280px;
     margin-left: 130px;
     margin-right: 130px;
+}
+
+@media (max-width: 767px) {
+    #whatsnext p {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+@media (max-width: 459px) {
+    #whatsnext p {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
