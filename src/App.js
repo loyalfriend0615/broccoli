@@ -13,6 +13,8 @@ import WhatsNext from './components/WhatsNext';
 import WhyBroc from './components/WhyBroc';
 import Contact from './components/contact';
 import Terms_Conditions from './components/Terms_Conditions';
+import Privacy_Policy from './components/Privacy_Policy';
+import Disclaimer from './components/Disclaimer';
 
 function App() {
   return (
@@ -29,6 +31,8 @@ function App() {
           <Route path="/why-broc" element={<WhyBroc />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/terms-conditions" element={<Terms_Conditions />} />
+          <Route path="/privacy-policy" element={<Privacy_Policy />} />
+          <Route path="/Disclaimer" element={<Disclaimer />} />
         </Routes>
         <Footer />
       </BrowserRouter>

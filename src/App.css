@@ -18,7 +18,7 @@
   overflow: hidden;
 }
 
-h1 {
+#header h1, #footer h1, #hiscoin h1, #home h1, #story h1, #photos h1, #video h1, #whybroc h1, #whatsnext h1, #contact h1 {
   line-height: 121px;
   font-size: 88px;
   color: #004AAD;
@@ -27,7 +27,7 @@ h1 {
   font-family: Biski-Bold;
 }
 
-h2 {
+#header h2, #footer h2, #hiscoin h2, #home h2, #story h2, #photos h2, #video h2, #whybroc h2, #whatsnext h2, #contact h2 {
   font-size: 64px;
   font-family: Biski-Bold;
   font-weight: 700;
@@ -35,7 +35,7 @@ h2 {
   color: #004AAD;
 }
 
-h3 {
+#header h3, #footer h3, #hiscoin h3, #home h3, #story h3, #photos h3, #video h3, #whybroc h3, #whatsnext h3, #contact h3 {
   font-size: 32px;
   font-family: Biski-Bold;
   font-weight: 700;
@@ -43,23 +43,28 @@ h3 {
   color: #004AAD;
 }
 
-h4 {
+#header h4, #footer h4, #hiscoin h4, #home h4, #story h4, #photos h4, #video h4, #whybroc h4, #whatsnext h4, #contact h4, .copy h4 {
   font-size: 24px;
   margin-left: 20px;
   color: #004AAD;
+  font-family: Biski-Bold;
 }
 
-h5 {
+#header h5, #footer h5, #hiscoin h5, #home h5, #story h5, #photos h5, #video h5, #whybroc h5, #whatsnext h5, #contact h5 {
   font-size: 18px;
   line-height: 22px;
   font-weight: 400;
   margin-top: 16px;
   margin-left: 20px;
+  margin-bottom: 10px;
   color: #004AAD;
+  font-family: Biski-Bold;
+  padding-top: 5px;
 }
 
-h6 {
+#header h6, #footer h6, #hiscoin h6, #home h6, #story h6, #photos h6, #video h6, #whybroc h6, #whatsnext h6, #contact h6 {
   font-size: 16px;
+  font-family: Biski-Bold;
 }
 
 .copy {
@@ -75,33 +80,37 @@ h6 {
   cursor: pointer;
 }
 
+.doc-content {
+  margin: auto;
+}
+
 @media (max-width: 1379px) {
-  h2 {
+  #header h2, #footer h2, #hiscoin h2, #home h2, #story h2, #photos h2, #video h2, #whybroc h2, #whatsnext h2, #contact h2 {
     font-size: 3em;
     line-height: 60px;
   }
 }
 
 @media (max-width: 1279px) {
-  h1 {
+  #header h1, #footer h1, #hiscoin h1, #home h1, #story h1, #photos h1, #video h1, #whybroc h1, #whatsnext h1, #contact h1 {
     font-size: 3.5em;
     line-height: 70px;
   }
-  h2 {
+  #header h2, #footer h2, #hiscoin h2, #home h2, #story h2, #photos h2, #video h2, #whybroc h2, #whatsnext h2, #contact h2 {
     line-height: 50px;
   }
-  h3 {
+  #header h3, #footer h3, #hiscoin h3, #home h3, #story h3, #photos h3, #video h3, #whybroc h3, #whatsnext h3, #contact h3 {
     font-size: 24px;
     line-height: 34px;
   }
 }
 
 @media (max-width: 459px) {
-  h1 {
+  #header h1, #footer h1, #hiscoin h1, #home h1, #story h1, #photos h1, #video h1, #whybroc h1, #whatsnext h1, #contact h1 {
     font-size: 2.5em;
     line-height: 50px;
   }
-  h2 {
+  #header h2, #footer h2, #hiscoin h2, #home h2, #story h2, #photos h2, #video h2, #whybroc h2, #whatsnext h2, #contact h2 {
     font-size: 2em;
   }
 }

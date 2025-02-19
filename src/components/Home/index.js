@@ -6,7 +6,7 @@ import HisGif from '../../assets/img/he-and-dog.gif';
 
 function Home() {
     return (
-        <div>
+        <div id="home">
             <div id="homepage">
                 <h1>
                     THE LEGEND OF BROCCOLI CZ'S DOG

@@ -67,6 +67,9 @@ function Header() {
                                     <Link to='/privacy-policy'>PRIVACY POLICY</Link>
                                 </li>
                                 <li>
+                                    <Link to='/disclaimer'>DISCLAIMER</Link>
+                                </li>
+                                <li>
                                     <Link to='/contact'>CONTACT US</Link>
                                 </li>
                             </ul>
