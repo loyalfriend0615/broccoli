@@ -12,6 +12,7 @@ import Hiscoin from './components/hiscoin';
 import WhatsNext from './components/WhatsNext';
 import WhyBroc from './components/WhyBroc';
 import Contact from './components/contact';
+import Terms_Conditions from './components/Terms_Conditions';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/whats-next" element={<WhatsNext />} />
           <Route path="/why-broc" element={<WhyBroc />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/terms-conditions" element={<Terms_Conditions />} />
         </Routes>
         <Footer />
       </BrowserRouter>
