@@ -38,6 +38,9 @@ function Footer() {
                         <h5>
                             <Link to='/why-broc' >WHY $BROC</Link>
                         </h5>
+                        <h5>
+                            <Link to='/whats-next' >WHAT'S NEXT</Link>
+                        </h5>
                     </div>
                     <div id="legal">
                         <h4>Legal</h4>
