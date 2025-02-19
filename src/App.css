@@ -61,3 +61,13 @@ h5 {
 h6 {
   font-size: 16px;
 }
+
+.copy {
+  margin: auto;
+  margin-bottom: 100px;
+  max-width: 1260px;
+  min-height: 200px;
+  border-bottom: solid 1px gray;
+  border-right: solid 1px gray;
+  position: relative;
+}
