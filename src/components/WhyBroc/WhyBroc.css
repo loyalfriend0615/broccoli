@@ -73,3 +73,12 @@
     border-radius: 50%;
     text-align: center;
 }
+
+@media (max-width: 459px) {
+    .why {
+        width: 80%!important;
+    }
+    .why1 {
+        transform: translateX(-20px);
+    }
+}

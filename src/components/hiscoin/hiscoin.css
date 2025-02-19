@@ -6,7 +6,6 @@
 #hiscoin .landing {
     margin: auto;
     max-width: 1360px;
-    width: 100%;
     min-height: 688px;
     background-image: url('../../assets/img/background.png');
     background-position: center;
@@ -15,8 +14,9 @@
 }
 #hiscoin .landing img {
     padding: 40px 30px;
-    width: 550px;
-    height: 550px;
+    max-width: 550px;
+    width: 40%;
+    height: auto;
     float: right;
 }
 #hiscoin h2 {
@@ -58,4 +58,68 @@
 }
 #hiscoin .legend {
     margin-bottom: 100px;
+}
+
+@media (max-width: 1379px) {
+    .landing {
+        margin: 0 40px!important;
+    }
+    #hiscoin .landing img {
+        padding-top: 80px;
+    }
+}
+
+@media (max-width: 1074px) {
+    .landing {
+        text-align: center;
+    }
+    .landing h2 {
+        margin: 10px!important;
+        line-height: 55px;
+    }
+    .legend h2 {
+        line-height: 55px;
+    }
+    #hiscoin .landing img {
+        padding: 20px 0 0 0;
+        float: none;
+        width: 30%;
+    }
+    #hiscoin .landing p {
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #hiscoin .legend>p {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 767px) {
+    .landing {
+        margin: 0 20px!important;
+    }
+    #hiscoin .legend>div>div {
+        width: 100%;
+    }
+    #hiscoin h2 {
+        margin-left: 20px;
+    }
+    #hiscoin .legend>div>div:last-child p {
+        margin-left: 20px;
+    }
+    #hiscoin .legend>div>div:last-child {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 479px) {
+    .landing {
+        margin: 0 10px!important;
+    }
+    #hiscoin .legend>p {
+      font-size: 1em!important;
+    }
 }

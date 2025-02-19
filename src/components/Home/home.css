@@ -1,6 +1,5 @@
 #homepage {
     max-width: 1360px;
-    min-height: 688px;
     margin: 0 40px 101px 40px;
     background-image: url("../../assets/img/background.png");
     background-size: cover;
@@ -13,7 +12,7 @@
     width: 50%;
 }
 #homepage img {
-    margin: 100px auto auto 50px;
+    margin: 100px auto 60px 50px;
     border: solid 10px white;
     box-sizing: border-box;
     border-radius: 10px;
@@ -41,5 +40,27 @@
         margin-left: 10px;
         width: 90%;
         height: auto;
+    }
+}
+
+@media (max-width: 824px) {
+    #homepage {
+        flex-wrap: wrap;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #homepage>* {
+        width: 100%;
+    }
+    #homepage>div {
+        text-align: center;
+    }
+    #homepage>div>img {
+        margin-left: 0;
+    }
+    #homepage h1 {
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
     }
 }

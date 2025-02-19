@@ -75,8 +75,33 @@ h6 {
   cursor: pointer;
 }
 
+@media (max-width: 1379px) {
+  h2 {
+    font-size: 3em;
+    line-height: 60px;
+  }
+}
+
 @media (max-width: 1279px) {
   h1 {
     font-size: 3.5em;
+    line-height: 70px;
+  }
+  h2 {
+    line-height: 50px;
+  }
+  h3 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+}
+
+@media (max-width: 459px) {
+  h1 {
+    font-size: 2.5em;
+    line-height: 50px;
+  }
+  h2 {
+    font-size: 2em;
   }
 }
