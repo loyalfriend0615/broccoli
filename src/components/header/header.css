@@ -5,6 +5,7 @@
     max-width: 1440px;
     top: 0;
     width: 100%;
+    background-color: white;
 }
 .navbar {
     position: relative;
@@ -125,7 +126,7 @@ z-index: 100;
 
 #header {
     background-color: #F6F8FF;
-    margin: 40px 5px 40px 5px;
+    margin: 20px 5px 0px 5px;
     border-radius: 8px!important;
     font-size: 18px;
     color: #004AAD!important;
@@ -231,7 +232,7 @@ bottom: 10px;
 
 @media (max-width: 767px) {
     #header {
-        margin: 20px 5px;
+        margin: 10px 5px 0 5px;
     }
     .nav-list {
         display: block;

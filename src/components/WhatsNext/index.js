@@ -23,11 +23,9 @@ function WhatsNext() {
                 </p>
             </div>
             <div className="copy">
-                <h4>
-                    CA: Broccoli memes are intended to serve as an expression of support for and engagement with the ideals and beliefs embodied by the symbol
-                    "$Broccoli" and the associated artwork. They are not intended to constitute an investment opportunity, investment contract, or security of any kind.
-                </h4>
-                <button>COPY</button>
+                <span>Contract Adress:</span>
+                <input type="input" id="ca2" value="qfasdfagadsasfdqaefadgadsgasdfasdfasdfasdfasdfafdadsfasdffe"></input>
+                <button id="btn2">Copy CA</button>
             </div>
         </div>
     );

@@ -7,7 +7,7 @@ import icon4 from '../../assets/img/icon4.png';
 import icon5 from '../../assets/img/icon5.png';
 
 import './home.css';
-
+import {copyToClipboard1} from '../../function/function.js';
 import HisGif from '../../assets/img/he-and-dog.gif';
 
 function Home() {
@@ -23,7 +23,6 @@ function Home() {
                     <h2>Join Our Community</h2>
                     <div>
                         <a href="#">
-                            <i className="fa-brands fa-x-twitter"></i>
                         </a>
                         <a href="#">
                             <img src={telegram} alt="telegram" />
@@ -44,11 +43,9 @@ function Home() {
                 </div>
             </div>
             <div className="copy">
-                <h4>
-                    CA: Broccoli memes are intended to serve as an expression of support for and engagement with the ideals and beliefs embodied by the symbol
-                    "$Broccoli" and the associated artwork. They are not intended to constitute an investment opportunity, investment contract, or security of any kind.
-                </h4>
-                <button>COPY</button>
+                <span>Contract Adress:</span>
+                <input type="input" id="ca1" defaultValue="qfasdfagadsasfdqaefadgadsgasdfasdfasdfasdfasdfafdadsfasdffe"></input>
+                <button id="btn1" onClick = {copyToClipboard1}>Copy CA</button>
             </div>
         </div>
     );

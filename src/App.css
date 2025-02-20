@@ -68,13 +68,49 @@
 }
 
 .copy {
-  margin: auto;
-  margin-bottom: 100px;
-  max-width: 1260px;
-  min-height: 200px;
-  border-bottom: solid 1px gray;
-  border-right: solid 1px gray;
-  position: relative;
+  max-width: 1440px;
+  padding: 30px 30px;
+  border-radius: 8px;
+  background-image: url("./assets/img/background.png");
+  background-position: center;
+  font-family: Biski-Regular;
+  font-size: 22px;
+  font-weight: 600;
+  color: #004AAD;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.copy input:focus {
+  outline: none;
+}
+.copy input {
+  font-family: Biski-Regular;
+  font-size: 22px;
+  font-weight: 600;
+  background: none;
+  border: none;
+  text-align: center;
+  width: calc(100% - 370px);
+  
+}
+.copy span {
+  padding: 15px 10px;
+  background-color: white;
+  border-radius: 8px;
+}
+.copy button {
+  font-family: Biski-Regular;
+  font-size: 22px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  background-color: #004AAD;
+  padding: 5px 20px;
+  width: 120px;
 }
 .copy button:hover {
   cursor: pointer;
@@ -85,17 +121,33 @@
 }
 
 #home, #terms_conditions, #privacy_policy, #disclaimer-page, #contact {
-  margin-top: 160px;
+  margin-top: 120px;
 }
 
 #story, #photos, #hiscoin {
-  scroll-margin-top: 160px;
+  scroll-margin-top: 120px;
 }
 
 @media (max-width: 1379px) {
   #header h2, #footer h2, #hiscoin h2, #home h2, #story h2, #photos h2, #video h2, #whybroc h2, #whatsnext h2, #contact h2 {
     font-size: 3em;
     line-height: 60px;
+  }
+  .copy {
+    padding: 20px 20px;
+  }
+  .copy input {
+    font-size: 18px;
+    width: calc(100% - 330px);
+    
+  }
+  .copy span {
+    padding: 10px 10px;
+    font-size: 18px;
+  }
+  .copy button {
+    font-size: 18px;
+    padding: 0px 20px;
   }
 }
 
