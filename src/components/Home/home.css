@@ -56,8 +56,8 @@
     border-radius: 10px;
 }
 #homepage>div:first-child img {
-    width: 48px;
-    height: 48px;
+    width: 35px;
+    height: 35px;
 }
 
 @media (max-width: 1321px) {

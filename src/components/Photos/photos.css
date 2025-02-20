@@ -1,6 +1,12 @@
 #photos {
-    max-width: 1360px;
+    max-width: 1440px;
     margin: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 8px;
+    background-image: url("../../assets/img/background.png");
+    padding-bottom: 1px;
+    margin-bottom: 20px;
 }
 #photos>div {
     width: 100%;
@@ -8,7 +14,6 @@
     justify-content: center;
 }
 #photos>div:nth-child(2) {
-    max-width: 1360px;
     width: 100%;
     justify-content: space-between;
     padding: 0 160px;

@@ -1,6 +1,12 @@
 #story {
-    max-width: 1360px;
+    max-width: 1440px;
     margin: auto;
+    background-image: url("../../assets/img/background.png");
+    background-position: center;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
 }
 #story>div {
     width: 100%;
@@ -34,5 +40,5 @@
     text-align: center;
 }
 #story h4 {
-    margin-bottom: 132px;
+    margin-bottom: 32px;
 }

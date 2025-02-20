@@ -12,6 +12,7 @@
     background-position: center;
     overflow: auto;
     border-radius: 8px;
+    margin-bottom: 20px;
 }
 #hiscoin .landing img {
     padding: 40px 30px;
@@ -21,7 +22,7 @@
     float: right;
 }
 #hiscoin h2 {
-    margin: 105px 10px 0 60px;
+    margin: 65px 10px 0 60px;
 }
 #hiscoin .landing p {
     margin: 14px 10px 0 59px;
@@ -37,7 +38,7 @@
     margin-bottom: 40px;
 }
 #hiscoin .legend>div>div:last-child {
-    margin-top: 160px;
+    margin-top: 100px;
 }
 #hiscoin .legend>div>div:last-child p {
     margin: 14px 10px 0 0px;
@@ -59,9 +60,12 @@
     color: #004AAD;
 }
 #hiscoin .legend {
-    margin-bottom: 100px;
-    max-width: 1360px;
-    margin: auto;
+    background-image: url("../../assets/img/background.png");
+    background-position: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    border-radius: 8px;
 }
 
 @media (max-width: 1379px) {
