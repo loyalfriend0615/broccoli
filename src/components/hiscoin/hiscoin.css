@@ -66,21 +66,27 @@
     margin-right: 5px;
     margin-bottom: 20px;
     border-radius: 8px;
+    padding-bottom: 1px;
+}
+#hiscoin .legend>p:nth-child(2) {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#hiscoin .legend>p:last-child {
+    margin-bottom: 40px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media (max-width: 1379px) {
     #hiscoin .landing img {
         padding-top: 80px;
     }
-    #hiscoin .legend {
-        margin: 0 40px;
-    }
 }
 
 @media (max-width: 1074px) {
-    #hiscoin .legend {
-        margin: 0 20px;
-    }
     .landing {
         text-align: center;
     }
@@ -118,8 +124,9 @@
         text-align: center;
     }
     #hiscoin .legend>div>div:last-child p {
-        margin-left: 0px;
-        margin-right: 0px;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
     }
     #hiscoin .legend>div>div:last-child {
         margin-top: 30px;
