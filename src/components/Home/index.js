@@ -44,7 +44,7 @@ function Home() {
             </div>
             <div className="copy">
                 <span>Contract Adress:</span>
-                <input type="input" id="ca1" defaultValue="qfasdfagadsasfdqaefadgadsgasdfasdfasdfasdfasdfafdadsfasdffe"></input>
+                <input type="text" id="ca1" value="qfasdfagadsasfdqaefadgadsgasdfasdfasdfasdfasdfafdadsfasdffe" readonly />
                 <button id="btn1" onClick = {copyToClipboard1}>Copy CA</button>
             </div>
         </div>
