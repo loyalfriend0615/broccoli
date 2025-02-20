@@ -5,14 +5,16 @@ import './WhyBroc.css';
 function WhyBroc() {
     return (
         <div id="whybroc">
-            <h2>
-                Why THE Broccoli Coin $BROC? Because This One's Different.
-            </h2>
-            <p>
-                Most Meme Coins Are Just Noise - 💎 THE Broccoli Coin is a Movement
-                This isn't some pump-and-dump. It's a community-driven meme that actually means something.
-                A story of loyalty, resilience, and unstoppable energy.
-            </p>
+            <div className="why">
+                <h3>
+                    Why THE Broccoli Coin $BROC? Because This One's Different.
+                </h3>
+                <p>
+                    Most Meme Coins Are Just Noise - 💎 THE Broccoli Coin is a Movement
+                    This isn't some pump-and-dump. It's a community-driven meme that actually means something.
+                    A story of loyalty, resilience, and unstoppable energy.
+                </p>
+            </div>
             <div className="why why1">
                 <div>1</div>
                 <h3>
