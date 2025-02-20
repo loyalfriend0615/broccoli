@@ -20,7 +20,7 @@
 
 #header h1, #footer h1, #hiscoin h1, #home h1, #story h1, #photos h1, #video h1, #whybroc h1, #whatsnext h1, #contact h1 {
   line-height: 121px;
-  font-size: 88px;
+  font-size: 64px;
   color: #004AAD;
   font-weight: 700;
   margin: 105px auto auto 56px;
@@ -28,7 +28,7 @@
 }
 
 #header h2, #footer h2, #hiscoin h2, #home h2, #story h2, #photos h2, #video h2, #whybroc h2, #whatsnext h2, #contact h2 {
-  font-size: 64px;
+  font-size: 54px;
   font-family: Biski-Bold;
   font-weight: 700;
   line-height: 83.2px;
@@ -97,7 +97,7 @@
     line-height: 70px;
   }
   #header h2, #footer h2, #hiscoin h2, #home h2, #story h2, #photos h2, #video h2, #whybroc h2, #whatsnext h2, #contact h2 {
-    line-height: 50px;
+    /* line-height: 50px; */
   }
   #header h3, #footer h3, #hiscoin h3, #home h3, #story h3, #photos h3, #video h3, #whybroc h3, #whatsnext h3, #contact h3 {
     font-size: 24px;

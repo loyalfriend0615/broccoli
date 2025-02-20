@@ -93,7 +93,7 @@ z-index: 100;
 
 #header {
     background-color: #F6F8FF;
-    margin: 40px 40px 40px 40px;
+    margin: 40px 5px 40px 5px;
     border-radius: 8px!important;
     font-size: 18px;
     color: black!important;
@@ -179,7 +179,7 @@ bottom: 10px;
 
 @media (max-width: 767px) {
     #header {
-        margin: 20px;
+        margin: 20px 5px;
     }
     .nav-list {
         display: block;

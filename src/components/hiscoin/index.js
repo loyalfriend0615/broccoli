@@ -10,7 +10,7 @@ function Hiscoin() {
             <div className="landing">
                 <img src={HiscoinImage} alt="his coin" />
                 <h2>
-                    The Broccoli Coin<br/>
+                    THE Broccoli Coin<br/>
                     The Only Broccoli<br/>
                     That Matters
                 </h2>
@@ -30,11 +30,11 @@ function Hiscoin() {
                 </div>
                 <div>
                     <p>
-                        It all started with zero plans to get a dog.
+                        It all started with <b>zero plans to get a dog.</b>
                     </p>
                     <p>
-                        One casual chat about dog breeds in the Dubai heat, and next thing you know—CZ's doorbell rings.
-                        Standing there was a Belgian Malinois with a passport. No second thoughts. Just pure destiny
+                        One casual chat about dog breeds in the Dubai heat, and next thing you know— <b>CZ's doorbell rings.</b> 
+                        Standing there was <b>a Belgian Malinois with a passport.</b> No second thoughts. Just <b>pure destiny</b>
                     </p>
                 </div>
                 </div>
@@ -42,10 +42,10 @@ function Hiscoin() {
                 Broccoli was:
                 </p>
                 <p>
-                ❌ Not socialized <br/>
-                ❌ Scared of balls (seriously, he ran away from them like a rug pull) <br/>
-                ❌ Not toilet trained (RIP the liquidity pools at home) <br/>
-                ✅ Built for speed (15km on his first run, non-stop)
+                <b>❌ Not socialized </b><br/>
+                <b>❌ Scared of balls (seriously, he ran away from them like a rug pull)</b> <br/>
+                <b>❌ Not toilet trained (RIP the liquidity pools at home)</b> <br/>
+                <b>✅ Built for speed (15km on his first run, non-stop)</b>
                 </p>
             </div>
         </div>

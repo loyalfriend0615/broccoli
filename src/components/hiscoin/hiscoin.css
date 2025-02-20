@@ -5,7 +5,8 @@
 }
 #hiscoin .landing {
     margin: auto;
-    max-width: 1360px;
+    margin-left: 5px;
+    margin-right: 5px;
     min-height: 688px;
     background-image: url('../../assets/img/background.png');
     background-position: center;
@@ -20,7 +21,7 @@
     float: right;
 }
 #hiscoin h2 {
-    margin: 105px 10px 0 56px;
+    margin: 105px 10px 0 60px;
 }
 #hiscoin .landing p {
     margin: 14px 10px 0 59px;
@@ -33,43 +34,49 @@
 #hiscoin .legend>div:first-child {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 40px;
 }
 #hiscoin .legend>div>div:last-child {
     margin-top: 160px;
 }
 #hiscoin .legend>div>div:last-child p {
-    margin: 14px 10px 0 59px;
+    margin: 14px 10px 0 0px;
     font-family: Biski-Regular;
     font-size: 16px;
     font-weight: 500;
-    line-height: 19.5px;
-    color: #7E7E7E;
+    line-height: 25px;
+    color: #004AAD;
 }
 #hiscoin .legend>div>div {
     width: 49%;
 }
 #hiscoin .legend>p {
     font-family: Biski-Regular;
-    font-size: 32px;
+    font-size: 16px;
     line-height: 40px;
     font-weight: 500;
     margin-left: 56px;
-    color: #747474;
+    color: #004AAD;
 }
 #hiscoin .legend {
     margin-bottom: 100px;
+    max-width: 1360px;
+    margin: auto;
 }
 
 @media (max-width: 1379px) {
-    .landing {
-        margin: 0 40px!important;
-    }
     #hiscoin .landing img {
         padding-top: 80px;
+    }
+    #hiscoin .legend {
+        margin: 0 40px;
     }
 }
 
 @media (max-width: 1074px) {
+    #hiscoin .legend {
+        margin: 0 20px;
+    }
     .landing {
         text-align: center;
     }
@@ -93,25 +100,28 @@
     #hiscoin .legend>p {
         margin-left: 20px;
         margin-right: 20px;
-        font-size: 24px;
+        /* font-size: 24px; */
     }
 }
 
 @media (max-width: 767px) {
-    .landing {
-        margin: 0 20px!important;
-    }
     #hiscoin .legend>div>div {
         width: 100%;
     }
     #hiscoin h2 {
-        margin-left: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     #hiscoin .legend>div>div:last-child p {
-        margin-left: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     #hiscoin .legend>div>div:last-child {
         margin-top: 30px;
+    }
+    #hiscoin .legend>p {
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 

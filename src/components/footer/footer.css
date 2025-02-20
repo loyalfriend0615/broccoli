@@ -5,6 +5,9 @@
     background-size: cover;
     background-position: center;
     min-height: 497px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 8px;
 }
 #footer>div:first-child {
     display: flex; 
@@ -51,6 +54,13 @@
 }
 #social a i {
     color: #004AAD;
+}
+
+@media (max-width:1359px) {
+    #disclaimer {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 
 @media (max-width: 767px) {
