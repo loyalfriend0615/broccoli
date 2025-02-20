@@ -4,6 +4,14 @@ import { Link } from 'react-router-dom';
 import './footer.css';
 import logo from '../../assets/img/logo192.png';
 
+import twitter from '../../assets/img/twitter.png';
+import telegram from '../../assets/img/telegram.png';
+import discord from '../../assets/img/discord.png';
+import bird from '../../assets/img/bird.png';
+import dex from '../../assets/img/dex.png';
+import bunny from '../../assets/img/bunny.png';
+import github from '../../assets/img/github.png';
+
 function Footer() {
     return (
         <div id="footer-container">
@@ -54,10 +62,27 @@ function Footer() {
                         ⓒ 2025 - Copyright
                     </p>
                     <div id="social">
-                        <a href="#"><i className="fa-brands fa-linkedin fa-2x"></i></a>
-                        <a href="#"><i className="fa-brands fa-discord fa-2x"></i></a>
-                        <a href="#"><i className="fa-brands fa-telegram fa-2x"></i></a>
-                        <a href="#"><i className="fa-brands fa-github fa-2x"></i></a>
+                        <a href="#">
+                            <img src={twitter} alt="twitter" />
+                        </a>
+                        <a href="#">
+                            <img src={telegram} alt="telegram" />
+                        </a>
+                        <a href="#">
+                            <img src={discord} alt="discord" />
+                        </a>
+                        <a href="#">
+                            <img src={bird} alt="DEX Screener" />
+                        </a>
+                        <a href="#">
+                            <img src={dex} alt="DEX Tools" />
+                        </a>
+                        <a href="#">
+                            <img src={bunny} alt="PancakeSwap" />
+                        </a>
+                        <a href="#">
+                            <img src={github} alt="github" />
+                        </a>
                     </div>
                 </div>
             </div>

@@ -25,7 +25,7 @@ function Home() {
                     <h2>Join Our Community</h2>
                     <div>
                         <a href="#">
-                        <img src={twitter} alt="twitter" />
+                            <img src={twitter} alt="twitter" />
                         </a>
                         <a href="#">
                             <img src={telegram} alt="telegram" />
@@ -43,7 +43,7 @@ function Home() {
                             <img src={bunny} alt="PancakeSwap" />
                         </a>
                         <a href="#">
-                        <img src={github} alt="github" />
+                            <img src={github} alt="github" />
                         </a>
                     </div>
                 </div>
