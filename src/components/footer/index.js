@@ -39,10 +39,10 @@ function Footer() {
                     <div id="legal">
                         <h4>Legal</h4>
                         <h5>
-                            <Link to='terms-conditions'>TERMS & CONDITIONS</Link>
+                            <Link to='privacy-policy'>PRIVACY POLICY</Link>
                         </h5>
                         <h5>
-                            <Link to='privacy-policy'>PRIVACY POLICY</Link>
+                            <Link to='terms-conditions'>TERMS & CONDITIONS</Link>
                         </h5>
                         <h5>
                             <Link to='disclaimer'>DISCLAIMER</Link>

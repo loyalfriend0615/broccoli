@@ -12,21 +12,52 @@
     display: flex;
     justify-content: space-between;
 }
-#homepage>* {
-    width: 50%;
+#homepage>div:last-child {
+    width: 40%;
+}
+#homepage>div:first-child {
+    width: 60%;
+}
+#homepage>div:first-child>div a {
+    padding: 0 10px;
+}
+#homepage>div:first-child>div {
+    font-size: 3em;
+    text-align: center;
+}
+.fa-x-twitter {
+    color: black;
+}
+.fa-telegram {
+    color: blue;
+}
+#homepage h2 {
+    font-size: 30px;
+    font-weight: 100;
+    font-family: Biski-Regular;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0;
 }
 #homepage h1 {
     font-family: Biski-Regular;
     font-weight: 100;
+    font-size: 50px;
+    line-height: 60px;
 }
 #homepage h1 b {
     font-family: Biski-Bold;
 }
-#homepage img {
+#homepage>div:last-child img {
     margin: 100px auto 60px 50px;
     border: solid 10px white;
     box-sizing: border-box;
     border-radius: 10px;
+}
+#homepage>div:first-child img {
+    width: 48px;
+    height: 48px;
 }
 .copy button {
     width: 190px;
@@ -44,6 +75,18 @@
     bottom: 0;
     right: 30px;
     transform: translateY(50%);
+}
+
+@media (max-width: 1321px) {
+    #homepage h1 {
+        font-size: 40px;
+    }
+    #homepage h2 {
+        font-size: 25px;
+    }
+    #homepage>div:last-child img {
+        margin-left: 0;
+    }
 }
 
 @media (max-width: 1279px) {
