@@ -8,7 +8,7 @@ function Video() {
     return (
         <div id="video">
             <div>
-                <h1>BROCCOLI VIDEO</h1>
+                <h1>Broccoli Video</h1>
             </div>
             <div>
                 <video controls>

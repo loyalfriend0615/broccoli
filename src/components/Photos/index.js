@@ -13,7 +13,7 @@ function Photos() {
     return (
         <div id="photos">
             <div>
-                <h1>BROCCOLI PHOTOS</h1>
+                <h1>Broccoli Photos</h1>
             </div>
             <div>
                 <img src= {photo1} alt="broccoli and friend" width="377px" height="565px" />

@@ -9,7 +9,7 @@ function Home() {
         <div id="home">
             <div id="homepage">
                 <h1>
-                    THE LEGEND OF BROCCOLI CZ'S DOG
+                    The Legend of <b>Broccoli</b> CZ's Dog
                 </h1>
                 <div>
                     <img src={HisGif} alt="he-and-dog" width="527px" height="485px"/>

@@ -10,9 +10,9 @@ function Hiscoin() {
             <div className="landing">
                 <img src={HiscoinImage} alt="his coin" />
                 <h2>
-                    THE BROCCOLI COIN<br/>
-                    THE ONLY BROCCOLI<br/>
-                    THAT MATTERS
+                    The Broccoli Coin<br/>
+                    The Only Broccoli<br/>
+                    That Matters
                 </h2>
                 <p>
                     Another Broccoli Coin? Nah. This is THE Broccoli Coin.
@@ -22,31 +22,31 @@ function Hiscoin() {
                 </p>
             </div>
             <div className="legend">
-                 <div>
-                    <div>
-                        <h2>
-                            THE LEGEND OF BROCCOLI: A MEME WITH MEANING
-                        </h2>
-                    </div>
-                    <div>
-                        <p>
-                            It all started with zero plans to get a dog.
-                        </p>
-                        <p>
-                            One casual chat about dog breeds in the Dubai heat, and next thing you know—CZ's doorbell rings.
-                            Standing there was a Belgian Malinois with a passport. No second thoughts. Just pure destiny
-                        </p>
-                    </div>
-                 </div>
-                 <p>
-                    Broccoli was:
-                 </p>
-                 <p>
-                    ❌ Not socialized <br/>
-                    ❌ Scared of balls (seriously, he ran away from them like a rug pull) <br/>
-                    ❌ Not toilet trained (RIP the liquidity pools at home) <br/>
-                    ✅ Built for speed (15km on his first run, non-stop)
-                 </p>
+                <div>
+                <div>
+                    <h2>
+                        The Legend of Broccoli: A Meme with Meaning
+                    </h2>
+                </div>
+                <div>
+                    <p>
+                        It all started with zero plans to get a dog.
+                    </p>
+                    <p>
+                        One casual chat about dog breeds in the Dubai heat, and next thing you know—CZ's doorbell rings.
+                        Standing there was a Belgian Malinois with a passport. No second thoughts. Just pure destiny
+                    </p>
+                </div>
+                </div>
+                <p>
+                Broccoli was:
+                </p>
+                <p>
+                ❌ Not socialized <br/>
+                ❌ Scared of balls (seriously, he ran away from them like a rug pull) <br/>
+                ❌ Not toilet trained (RIP the liquidity pools at home) <br/>
+                ✅ Built for speed (15km on his first run, non-stop)
+                </p>
             </div>
         </div>
     );

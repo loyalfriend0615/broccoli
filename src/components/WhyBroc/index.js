@@ -6,7 +6,7 @@ function WhyBroc() {
     return (
         <div id="whybroc">
             <h2>
-                WHY THE BROCCOLI COIN $BROC? BECAUSE THIS ONE'S DIFFERENT.
+                Why THE Broccoli Coin $BROC? Because This One's Different.
             </h2>
             <p>
                 Most Meme Coins Are Just Noise - 💎 THE Broccoli Coin is a Movement
@@ -26,7 +26,7 @@ function WhyBroc() {
             <div className="why why2">
                 <div>2</div>
                 <h3>
-                    NO RUG, NO SCAM, NO "OOPS, WE LOST THE KEYS"
+                    No Rug, No Scam, No "Oops, We Lost the Keys"
                 </h3>
                 <p>
                     THE Broccoli's Coin is community-powered, decentralized, and here for the long haul. Unlike some meme projects,
@@ -36,7 +36,7 @@ function WhyBroc() {
             <div className="why why3">
                 <div>3</div>
                 <h3>
-                    BROCCOLI RUNS FAST - AND HIS COIN IS HERE TO LAST
+                    Broccoli Runs Fast - And His Coin is Here to Last
                 </h3>
                 <p>
                     Broccoli once ran 15km without stopping. Other meme coins vanish just as fast. But not this one. We're here to

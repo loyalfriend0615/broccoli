@@ -11,6 +11,13 @@
 #homepage>* {
     width: 50%;
 }
+#homepage h1 {
+    font-family: Biski-Regular;
+    font-weight: 100;
+}
+#homepage h1 b {
+    font-family: Biski-Bold;
+}
 #homepage img {
     margin: 100px auto 60px 50px;
     border: solid 10px white;
@@ -62,5 +69,7 @@
         margin-left: 10px;
         margin-right: 10px;
         text-align: center;
+        font-family: Biski-Regular!important;
+        font-weight: 100!important;
     }
 }
