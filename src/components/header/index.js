@@ -45,13 +45,13 @@ function Header() {
                             </button>
                             <ul className="dropdown-menu">
                                 <li>
-                                    <a href='#hiscoin'>HIS COIN $BROC</a>
+                                    <a href='/#hiscoin'>HIS COIN $BROC</a>
                                 </li>
                                 <li>
-                                    <a href='#whybroc'>WHY $BROC</a>
+                                    <a href='/#whybroc'>WHY $BROC</a>
                                 </li>
                                 <li>
-                                    <a href='#whatsnext'>WHAT'S NEXT</a>
+                                    <a href='/#whatsnext'>WHAT'S NEXT</a>
                                 </li>
                             </ul>
                         </li>

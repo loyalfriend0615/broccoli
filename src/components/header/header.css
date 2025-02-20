@@ -121,9 +121,6 @@ z-index: 100;
     left: auto;
 }
 
-#home {
-    padding-left: 7px;
-}
 #home:hover {
     color: blue;
 }
