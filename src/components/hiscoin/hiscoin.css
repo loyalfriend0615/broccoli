@@ -127,7 +127,7 @@
         margin-left: 20px;
         margin-right: 20px;
         text-align: center;
-    }
+    }  
     #hiscoin .legend>div>div:last-child {
         margin-top: 30px;
     }
@@ -139,7 +139,7 @@
 
 @media (max-width: 479px) {
     .landing {
-        margin: 0 10px!important;
+        margin: 0 5px 20px 5px!important;
     }
     #hiscoin .legend>p {
       font-size: 1em!important;

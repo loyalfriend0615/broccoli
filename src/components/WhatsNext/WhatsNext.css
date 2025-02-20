@@ -1,7 +1,11 @@
 #whatsnext {
-    margin-bottom: 100px;
+    padding-bottom: 40px;
     margin-left: 5px;
     margin-right: 5px;
+    background-image: url("../../assets/img/background.png");
+    background-position: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
 }
 #whatsnext h2 {
     text-align: center;
@@ -13,8 +17,7 @@
     line-height: 20px;
     color: #004AAD;
     max-width: 1280px;
-    margin-left: 130px;
-    margin-right: 130px;
+    margin: 20px 130px;
 }
 
 @media (max-width: 767px) {

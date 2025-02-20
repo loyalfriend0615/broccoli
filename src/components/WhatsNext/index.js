@@ -21,7 +21,10 @@ function WhatsNext() {
                     THE Broccoli Coin is here to build something real, something fun, and something legendary. <br/></b>
                     So, are you in? <br/>
                     <b>Buy. Hold. Meme Hard. Stay Loyal. Be THE Broccoli. <br/>
-                    THE Broccoli to the moon!</b> 🌕
+                    </b> 
+                </p>
+                <p>
+                    <b>THE Broccoli to the moon!</b>🌕
                 </p>
             </div>
             <div className="copy">
