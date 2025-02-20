@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { copyToClipboard2 } from '../../function/function.js';
+
 import './WhatsNext.css';
 
 function WhatsNext() {
@@ -25,7 +27,7 @@ function WhatsNext() {
             <div className="copy">
                 <span>Contract Adress:</span>
                 <input type="input" id="ca2" value="qfasdfagadsasfdqaefadgadsgasdfasdfasdfasdfasdfafdadsfasdffe"></input>
-                <button id="btn2">Copy CA</button>
+                <button id="btn2" onClick={copyToClipboard2}>Copy CA</button>
             </div>
         </div>
     );

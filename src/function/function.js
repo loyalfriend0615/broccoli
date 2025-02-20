@@ -10,7 +10,7 @@ export function copyToClipboard1() {
         
         // Restore original text after 2 seconds
         setTimeout(() => {
-            button.innerHTML = "Copy";
+            button.innerHTML = "Copy CA";
         }, 2000);
     }).catch(err => {
         console.error("Failed to copy:", err);
@@ -27,7 +27,7 @@ export  function copyToClipboard2() {
         
         // Restore original text after 2 seconds
         setTimeout(() => {
-            button.innerHTML = "Copy";
+            button.innerHTML = "Copy CA";
         }, 2000);
     }).catch(err => {
         console.error("Failed to copy:", err);
