@@ -5,6 +5,8 @@ import "./header.css";
 function toggleMenu() {
     const hamburger = document.querySelector('.hamburger-menu');
   hamburger.classList.toggle('active');
+  const navitems = document.querySelector('.nav-items');
+  navitems.classList.toggle('active');
 }
 
 function Header() {
@@ -18,7 +20,7 @@ function Header() {
                             <span>THE Broccoli Meme</span>
                         </a>
                     </li>
-                    <div>
+                    <div className="nav-items">
                         <li className="nav-item">
                             <a href="/">
                                 <span>HOME</span>
