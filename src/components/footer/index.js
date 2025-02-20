@@ -24,22 +24,16 @@ function Footer() {
                             <a href='/' >HOME</a>
                         </h5>
                         <h5>
-                            <a href='/#story' >HIS STORY</a>
+                            <a href='/#story' >STORY</a>
                         </h5>
                         <h5>
-                            <a href='/#photos' >HIS PHOTOS</a>
+                            <a href='/#photos' >GALLERY</a>
                         </h5>
                         <h5>
-                            <a href='/#video' >HIS VIDEO</a>
+                            <a href='/#hiscoin' >$BROC</a>
                         </h5>
                         <h5>
-                            <a href='/#hiscoin' >HIS COIN $BROC</a>
-                        </h5>
-                        <h5>
-                            <a href='/#whybroc' >WHY $BROC</a>
-                        </h5>
-                        <h5>
-                            <a href='/#whatsnext' >WHAT'S NEXT</a>
+                            <Link to='contact'>CONTACT US</Link>
                         </h5>
                     </div>
                     <div id="legal">
@@ -48,13 +42,10 @@ function Footer() {
                             <Link to='terms-conditions'>TERMS & CONDITIONS</Link>
                         </h5>
                         <h5>
-                            <Link to='privacy-policy'>PRIVACY & POLICY</Link>
+                            <Link to='privacy-policy'>PRIVACY POLICY</Link>
                         </h5>
                         <h5>
                             <Link to='disclaimer'>DISCLAIMER</Link>
-                        </h5>
-                        <h5>
-                            <Link to='contact'>CONTACT US</Link>
                         </h5>
                     </div>
                 </div>

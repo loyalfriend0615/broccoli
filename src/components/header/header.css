@@ -238,7 +238,10 @@ bottom: 10px;
         margin: 10px;
     }
     .navbar {
-        padding: 12px;
+        padding: 0px;
+    }
+    .nav-logo span {
+        font-size: 24px;
     }
     #header img {
         width: 60px;
@@ -249,12 +252,18 @@ bottom: 10px;
     .hamburger-menu {
         width: 20px;
         height: 20px;
-        top: 19px;
+        top: 22px;
     }
     .hamburger-menu.active .bar:nth-child(3) {
         bottom: 8px;
     }
     .hamburger-menu.active .bar:nth-child(1) {
         top: 8px;
+    }
+}
+
+@media (max-width: 400px) {
+    .nav-logo>a>span {
+        display: none;
     }
 }
