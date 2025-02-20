@@ -1,24 +1,50 @@
 /* Basic Navbar Styles */
 .navbar {
     position: relative;
-    padding: 22px;
+    background-image: url("../../assets/img/background.png");
+    border-radius: 8px;
+}
+
+.nav-logo {
+    float: left;
+}
+
+.nav-item {
+    margin-right: 30px;
+    padding: 22px 0;
+    float: right;
+}
+
+.nav-logo img {
+    width: 80px;
+    height: 80px;
+    vertical-align: middle;
+}
+
+.nav-logo span {
+    display: inline-block;
+    padding: 12px 0 11px 0;
+    margin: 0;
+    font-size: 30px;
+    vertical-align: middle;
+    color: #004AAD;
 }
 
 .nav-list {
 list-style-type: none;
 padding: 0;
 margin: 0;
-display: flex;
-justify-content: space-between;
 align-items: center;
 }
 
-.nav-list li {
-margin-right: 20px;
+.nav-list::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .nav-list li a {
-color: black;
+color: #004AAD;
 text-decoration: none;
 font-size: 18px;
 font-family: Biski-Regular;
@@ -32,7 +58,7 @@ position: relative;
 .dropdown-toggle {
 background: none;
 border: none;
-color: black;
+color: #004AAD;
 font-size: 18px;
 cursor: pointer;
 font-family: Biski-Regular;
@@ -44,9 +70,9 @@ font-family: Biski-Regular;
     margin-left: 10px;
     width: 6px;
     height: 6px;
-    top: 10px;
-    border-right: 2px solid black;
-    border-top: 2px solid black;
+    top: 31px;
+    border-right: 2px solid #004AAD;
+    border-top: 2px solid #004AAD;
     transform: rotate(135deg);
     transition: transform 0.3s ease-in-out;
 }
@@ -70,7 +96,7 @@ width: 100%;
 }
 
 .dropdown-menu li a {
-color: black;
+color: #004AAD;
 text-decoration: none;
 font-family: Biski-Regular;
 }
@@ -96,7 +122,7 @@ z-index: 100;
     margin: 40px 5px 40px 5px;
     border-radius: 8px!important;
     font-size: 18px;
-    color: black!important;
+    color: #004AAD!important;
 }
 
 * {
@@ -138,7 +164,7 @@ z-index: 100;
 }
 
 .bar {
-background-color: #333;
+background-color: #004AAD;
 height: 4px;
 width: 100%;
 border-radius: 5px;
@@ -166,15 +192,23 @@ bottom: 10px;
     display: none;
 }
 
-#header img {
-    position: absolute;
-    top: 0;
-    right: 50%;
-    transform: translateX(50%);
-}
-
 .nav-item {
     cursor: pointer;
+}
+
+@media (max-width: 1079px) {
+    .nav-item {
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .nav-item {
+        display: none;
+    }
+    .hamburger-menu {
+        display: flex;
+    }
 }
 
 @media (max-width: 767px) {
@@ -188,23 +222,9 @@ bottom: 10px;
     #more ul {
         right: auto;
     }
-    .nav-right {
-        display: none;
-        width: 100%;
-    }
-    .nav-right.active, .nav-left.active {
-        display: block;
-    }
-    .nav-left {
-        display: none;
-        margin-top: 100px;
-    }
     #header img {
         top: -3px;
         left: -30px;
-    }
-    .hamburger-menu {
-        display: flex;
     }
 }
 
