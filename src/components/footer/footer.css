@@ -157,6 +157,12 @@
         padding: 0 0;
         line-height: 30px!important;
     }
+    #footer h4 {
+        margin-top: 0;
+    }
+    #footer .social {
+        min-width: 100px;
+    }
 }
 
 @media (max-width: 460px) {

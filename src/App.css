@@ -164,6 +164,9 @@
     font-size: 18px;
     padding: 0px 20px;
   }
+  #root {
+    overflow: hidden;
+  }
 }
 
 @media (max-width: 1279px) {
