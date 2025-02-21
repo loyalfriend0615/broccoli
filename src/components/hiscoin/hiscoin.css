@@ -41,6 +41,11 @@
     text-align: start;
     margin-left: 10px!important;
 }
+
+.legend.why {
+    margin-top: 0!important;
+}
+
 .legend.why p {
     text-align: start;
     color: #004AAD;
