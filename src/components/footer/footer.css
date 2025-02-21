@@ -48,7 +48,7 @@
 #footer>div:last-child {
     display: flex;
     justify-content: space-between;
-    padding: 0 40px;
+    padding: 0 80px;
 }
 #footer>div:last-child p {
     font-size: 14px;
@@ -68,6 +68,14 @@
 #footer h5 {
     margin-top: 0;
     margin-bottom: 0;
+}
+#site {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#site>div:first-child {
+    width: 40%;
 }
 
 @media (max-width:1359px) {

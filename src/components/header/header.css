@@ -43,7 +43,7 @@
 
 .nav-list {
 list-style-type: none;
-padding: 0;
+padding: 0 60px 0 80px;
 margin: 0;
 align-items: center;
 display: flex;
@@ -90,8 +90,9 @@ position: absolute;
 top: 100%;
 right: -20px;
 width: 100%;
-background-color: #e5e8f3;
-border-radius: 5px;
+background-color: #004AAD;
+border-bottom-right-radius: 5px;
+border-bottom-left-radius: 5px;
 display: none;
 min-width: 185px;
 padding: 10px 0;
@@ -103,7 +104,7 @@ width: 100%;
 }
 
 .dropdown-menu li a {
-color: #004AAD;
+color: white;
 text-decoration: none;
 font-family: Biski-Regular;
 }
@@ -198,13 +199,13 @@ bottom: 10px;
     cursor: pointer;
 }
 
-@media (max-width: 1079px) {
+@media (max-width: 1379px) {
     .nav-item {
         margin-right: 20px;
     }
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 1235px) {
     .nav-items {
         display: none;
     }

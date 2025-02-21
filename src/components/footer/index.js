@@ -25,23 +25,32 @@ function Footer() {
                         </p>
                     </div>
                     <div id="footer-menu">
-                        <div id="site">
+                        <div>
                             <h4>Site</h4>
-                            <h5>
-                                <a href='/' >HOME</a>
-                            </h5>
-                            <h5>
-                                <a href='/#story' >STORY</a>
-                            </h5>
-                            <h5>
-                                <a href='/#photos' >GALLERY</a>
-                            </h5>
-                            <h5>
-                                <a href='/#hiscoin' >$BROC</a>
-                            </h5>
-                            <h5>
-                                <Link to='contact'>CONTACT US</Link>
-                            </h5>
+                            <div id="site">
+                                <div>
+                                    <h5>
+                                        <a href='/' >HOME</a>
+                                    </h5>
+                                    <h5>
+                                        <a href='/#story' >STORY</a>
+                                    </h5>
+                                    <h5>
+                                        <a href='/#photos' >GALLERY</a>
+                                    </h5>
+                                </div>
+                                <div>
+                                    <h5>
+                                        <a href='/#hiscoin' >$BROC</a>
+                                    </h5>
+                                    <h5>
+                                        <a href='/#whybroc' >WHY BROC</a>
+                                    </h5>
+                                    <h5>
+                                        <Link to='contact'>CONTACT US</Link>
+                                    </h5>
+                                </div>
+                            </div>
                         </div>
                         <div id="legal">
                             <h4>Legal</h4>

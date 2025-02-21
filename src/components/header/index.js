@@ -33,7 +33,7 @@ function Header() {
                             </li>
                             <li className="nav-item">
                                 <a href="/#story">
-                                    <span>THE STORY</span>
+                                    <span>STORY</span>
                                 </a>
                             </li>
                             <li className="nav-item">
@@ -44,6 +44,11 @@ function Header() {
                             <li className="nav-item">
                                 <a href="/#hiscoin">
                                     <span>$BROC</span>
+                                </a>
+                            </li>
+                            <li className="nav-item">
+                                <a href="/#whybroc">
+                                    <span>WHY BROC</span>
                                 </a>
                             </li>
                             <li className="nav-item">
