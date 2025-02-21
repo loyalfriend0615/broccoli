@@ -59,7 +59,7 @@ function Footer() {
                 </div>
                 <div>
                     <p>
-                        ⓒ 2025 - Copyright
+                        ⓒ 2025 THE Broccoli Meme. All rights reserved.
                     </p>
                     <div id="social">
                         <a href="#">

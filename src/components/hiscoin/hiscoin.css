@@ -1,18 +1,10 @@
-#hiscoin .landing:after {
-    content: "";
-    clear: both;
-    display: table;
-}
 #hiscoin .landing {
     margin: auto;
     margin-left: 5px;
     margin-right: 5px;
-    min-height: 688px;
-    background-image: url('../../assets/img/background.png');
-    background-position: center;
-    overflow: auto;
+    /* background-image: url('../../assets/img/background.png'); */
+    /* background-position: center; */
     border-radius: 8px;
-    margin-bottom: 20px;
 }
 #hiscoin .landing img {
     padding: 40px 30px;
@@ -29,55 +21,22 @@
     font-family: Biski-Regular;
     font-size: 16px;
     font-weight: 500;
-    line-height: 19.5px;
+    line-height: 26px;
     color: #004AAD;
+    padding-bottom: 50px;
 }
-#hiscoin .legend>div:first-child {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 40px;
+
+.landing .why p {
+    text-align: start;
+    margin-left: 10px!important;
 }
-#hiscoin .legend>div>div:last-child {
-    margin-top: 100px;
-}
-#hiscoin .legend>div>div:last-child p {
-    margin: 14px 10px 0 0px;
+.legend.why p {
+    text-align: start;
+    color: #004AAD;
     font-family: Biski-Regular;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 25px;
-    color: #004AAD;
-}
-#hiscoin .legend>div>div {
-    width: 49%;
-}
-#hiscoin .legend>p {
-    font-family: Biski-Regular;
-    font-size: 16px;
-    line-height: 40px;
-    font-weight: 500;
-    margin-left: 56px;
-    color: #004AAD;
-}
-#hiscoin .legend {
-    background-image: url("../../assets/img/background.png");
-    background-position: center;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    padding-bottom: 1px;
-}
-#hiscoin .legend>p:nth-child(2) {
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-}
-#hiscoin .legend>p:last-child {
+    max-width: 540px;
     margin-bottom: 40px;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+    line-height: 26px;
 }
 
 @media (max-width: 1379px) {
@@ -94,9 +53,6 @@
         margin: 10px!important;
         line-height: 55px;
     }
-    .legend h2 {
-        line-height: 55px;
-    }
     #hiscoin .landing img {
         padding: 20px 0 0 0;
         float: none;
@@ -106,42 +62,21 @@
         margin-bottom: 20px;
         margin-left: 20px;
         margin-right: 20px;
-    }
-    #hiscoin .legend>p {
-        margin-left: 20px;
-        margin-right: 20px;
-        /* font-size: 24px; */
+        padding: 0 10px;
+        box-sizing: border-box;
     }
 }
 
 @media (max-width: 767px) {
-    #hiscoin .legend>div>div {
-        width: 100%;
-    }
     #hiscoin h2 {
         margin-left: 0px;
         margin-right: 0px;
         text-align: center;
-    }
-    #hiscoin .legend>div>div:last-child p {
-        margin-left: 20px;
-        margin-right: 20px;
-        text-align: center;
-    }  
-    #hiscoin .legend>div>div:last-child {
-        margin-top: 30px;
-    }
-    #hiscoin .legend>p {
-        margin-left: 0;
-        margin-right: 0;
     }
 }
 
 @media (max-width: 479px) {
     .landing {
         margin: 0 5px 20px 5px!important;
-    }
-    #hiscoin .legend>p {
-      font-size: 1em!important;
     }
 }

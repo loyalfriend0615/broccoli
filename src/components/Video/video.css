@@ -2,10 +2,11 @@
     max-width: 1440px;
     margin-left: 5px;
     margin-right: 5px;
-    background-image: url("../../assets/img/background.png");
-    background-position: center;
+    /* background-image: url("../../assets/img/background.png"); */
+    /* background-position: center; */
     border-radius: 8px;
     margin-bottom: 20px;
+    padding-top: 60px;
 }
 
 #video h1 {
@@ -19,5 +20,8 @@
 }
 #video video {
     max-width: 100%;
-    margin-bottom: 120px;
+    padding: 10px;
+    border-radius: 8px;
+    background-image: url("../../assets/img/background.png");
+    box-sizing: border-box;
 }

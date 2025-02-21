@@ -17,7 +17,7 @@
     color: #004AAD;
 }
 .why {
-    max-width: 670px;
+    max-width: 823px;
     width: 70%!important;
     min-height: 405px;
     border: solid 4px #004AAD;
@@ -30,9 +30,11 @@
     align-items: center;
     box-shadow: 108px 90px 186px -49px black;
     margin: 130px auto!important;
+    text-align: center;
 }
 .why>h3 {
     margin-top: 60px;
+    text-align: center;
 }
 .why>h3, .why>p {
     max-width: 488px;

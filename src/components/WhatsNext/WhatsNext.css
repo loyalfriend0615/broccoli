@@ -14,10 +14,13 @@
     font-family: Biski-Regular;
     font-size: 16px;
     font-weight: 500;
-    line-height: 20px;
+    line-height: 26px;
     color: #004AAD;
-    max-width: 1280px;
-    margin: 20px 130px;
+    max-width: 780px;
+    margin: 20px 0px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    text-align: start;
 }
 
 @media (max-width: 767px) {
