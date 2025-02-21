@@ -67,6 +67,19 @@ form div {
     margin-top: 60px;
     padding-bottom: 60px;
 }
+
+@media (max-width: 767px) {
+    #contact {
+        margin-top: 110px;
+    }
+}
+
+@media (max-width: 520px) {
+    #contact {
+        margin-top: 90px;
+    }
+}
+
 @media (max-width: 459px) {
     form input, form textarea {
         font-size: 16px;

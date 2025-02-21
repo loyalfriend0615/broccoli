@@ -92,6 +92,10 @@
         padding: 0 10px;
         box-sizing: border-box;
     }
+    #hiscoin .landing p:last-child {
+        padding-bottom: 60px;
+        margin-bottom: 0;
+    }
 }
 
 @media (max-width: 767px) {

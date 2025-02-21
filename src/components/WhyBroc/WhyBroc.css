@@ -80,6 +80,19 @@
     text-align: center;
 }
 
+@media (max-width: 1235px) {
+    .why>h3, .why>p {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .why {
+        width: 80%!important;
+    }
+}
+
 @media (max-width: 459px) {
     .why {
         width: 90%!important;

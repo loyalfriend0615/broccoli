@@ -155,11 +155,23 @@
     }
 }
 
+@media (max-width: 767px) {
+    #home {
+        margin-top: 110px;
+    }
+}
+
 @media (max-width: 673px) {
     #homepage .social {
         width: auto;
         display: flex;
         flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 520px) {
+    #home {
+        margin-top: 90px;
     }
 }
 
