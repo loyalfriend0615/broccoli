@@ -15,6 +15,8 @@
     /* background-position: center; */
     border-radius: 8px;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 #hiscoin .landing img {
     max-width: 550px;
@@ -46,6 +48,33 @@
     /* max-width: 540px; */
     margin-bottom: 60px;
     line-height: 26px;
+}
+
+@media (max-width: 1235px) {
+    #hiscoin .landing .why:first-child {
+        margin-top: 0!important;
+        border-top: none!important;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        order: 2;
+        z-index: 10;
+    }
+    #hiscoin .landing .why:last-child img {
+        position: relative;
+        position:initial;
+        transform: translate3d(0,0,0);
+    }
+    #hiscoin .landing .why:last-child {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        border-bottom: none!important;
+        margin-bottom: 0!important;
+        order: 1;
+        z-index: 1;
+    }
+    #hiscoin .landing .why {
+        width: 100%!important;
+    }
 }
 
 @media (max-width: 1074px) {
