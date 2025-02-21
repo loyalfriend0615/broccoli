@@ -18,7 +18,6 @@
     background-size: cover;
     background-position: center;
     border-radius: 8px;
-    border: solid 4px #004AAD;
     width: 45%;
     text-align: center;
 }
@@ -27,8 +26,7 @@
     background-size: cover;
     background-position: center;
     border-radius: 8px;
-    width: calc(55% - 28px);
-    border: solid 4px #004AAD;
+    width: calc(55% - 20px);
 }
 #homepage>div:first-child>div a {
     padding: 0 20px;

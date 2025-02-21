@@ -17,13 +17,13 @@
     margin: 65px 10px 0 60px;
 }
 #hiscoin .landing p {
-    margin: 14px 10px 0 59px;
+    margin: 0px 10px 0 59px;
     font-family: Biski-Regular;
     font-size: 16px;
     font-weight: 500;
     line-height: 26px;
     color: #004AAD;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
 }
 
 .landing .why p {
@@ -34,8 +34,8 @@
     text-align: start;
     color: #004AAD;
     font-family: Biski-Regular;
-    max-width: 540px;
-    margin-bottom: 40px;
+    /* max-width: 540px; */
+    margin-bottom: 60px;
     line-height: 26px;
 }
 
