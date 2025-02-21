@@ -42,3 +42,9 @@
 #story h4 {
     margin-bottom: 32px;
 }
+
+@media (max-width: 768px) {
+    #story>p {
+        padding: 0 25px;
+    }
+}

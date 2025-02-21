@@ -10,6 +10,7 @@
     background-position: center;
     border-radius: 8px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 #homepage>div:last-child {
@@ -88,7 +89,24 @@
 @media (max-width: 890px) {
     #homepage h1 {
         margin-left: 10px;
-        font-size: 30px;
+        font-size: 26px;
+        margin-top: 0px;
+        line-height: 36px;
+    }
+    #homepage>div:first-child {
+        padding-bottom: 30px;
+        width: 100%;
+        order: 2;
+    }
+    #homepage>div:last-child img {
+        margin-bottom: 10px;
+    }
+    #homepage>div:last-child {
+        order: 1;
+        width: 100%;
+    }
+    #homepage>div {
+        text-align: center;
     }
 }
 
@@ -111,5 +129,17 @@
         text-align: center;
         font-family: Biski-Regular!important;
         font-weight: 100!important;
+    }
+}
+
+@media (max-width: 425px) {
+    #homepage h2 {
+        font-size: 18px;
+    }
+    #home {
+        margin-top: 80px;
+    }
+    #homepage>div:first-child>div a {
+        padding: 0 5px;
     }
 }
