@@ -1,3 +1,12 @@
+#hiscoin .landing .why:last-child img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3D(-50%, -50%, 0);
+}
+#hiscoin .landing .why {
+    width: 45%!important;
+}
 #hiscoin .landing {
     margin: auto;
     margin-left: 5px;
@@ -5,11 +14,11 @@
     /* background-image: url('../../assets/img/background.png'); */
     /* background-position: center; */
     border-radius: 8px;
+    display: flex;
 }
 #hiscoin .landing img {
-    padding: 40px 30px;
     max-width: 550px;
-    width: 40%;
+    width: 80%;
     height: auto;
     float: right;
 }
@@ -39,12 +48,6 @@
     line-height: 26px;
 }
 
-@media (max-width: 1379px) {
-    #hiscoin .landing img {
-        padding-top: 80px;
-    }
-}
-
 @media (max-width: 1074px) {
     .landing {
         text-align: center;
@@ -52,11 +55,6 @@
     .landing h2 {
         margin: 10px!important;
         line-height: 55px;
-    }
-    #hiscoin .landing img {
-        padding: 20px 0 0 0;
-        float: none;
-        width: 30%;
     }
     #hiscoin .landing p {
         margin-bottom: 20px;

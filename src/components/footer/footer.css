@@ -146,7 +146,7 @@
         justify-content: space-around;
     }
     .social a {
-        padding: 0 10px;
+        padding: 0 0;
         line-height: 30px!important;
     }
 }

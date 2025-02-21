@@ -10,12 +10,14 @@
   font-weight: normal;
   font-style: normal;
 }
+body {
+  overflow-x: hidden;
+}
 
 #root {
   max-width: 1440px;
   margin: auto;
   font-family: Biski-Regular;
-  overflow: hidden;
 }
 
 #header h1, #footer h1, #hiscoin h1, #home h1, #story h1, #photos h1, #video h1, #whybroc h1, #whatsnext h1, #contact h1 {

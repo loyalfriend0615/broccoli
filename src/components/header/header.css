@@ -214,6 +214,7 @@ bottom: 10px;
         display: flex;
     }
     .nav-list {
+        padding: 0 60px 0 30px;
         display: block;
     }
     .nav-item {
