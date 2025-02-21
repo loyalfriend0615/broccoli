@@ -250,7 +250,7 @@ bottom: 10px;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 520px) {
     #header {
         margin: 5px;
     }
@@ -277,9 +277,12 @@ bottom: 10px;
     .hamburger-menu.active .bar:nth-child(1) {
         top: 8px;
     }
+    .nav-list {
+        padding-left: 20px;
+    }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 430px) {
     .nav-logo>a>span {
         display: none;
     }
