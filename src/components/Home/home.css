@@ -85,8 +85,7 @@
 }
 
 @media (max-width: 1279px) {
-    #homepage img {
-        margin-left: 10px;
+    #homepage>div:last-child img {
         width: 90%;
         height: auto;
     }
@@ -143,6 +142,13 @@
         text-align: center;
         font-family: Biski-Regular!important;
         font-weight: 100!important;
+    }
+}
+
+@media (max-width: 673px) {
+    #homepage .social {
+        width: auto;
+        display: block;
     }
 }
 
