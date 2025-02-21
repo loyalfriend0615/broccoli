@@ -39,6 +39,15 @@
 #disclaimer {
     padding: 30px 77px;
 }
+#disclaimer::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+#disclaimer img {
+    float: left;
+    padding: 10px 30px 30px 0px;
+}
 #disclaimer p {
     color: #004AAD;
     font-size: 12px;
@@ -49,6 +58,7 @@
     display: flex;
     justify-content: space-between;
     padding: 0 80px;
+    margin-top: 10px;
 }
 #footer>div:last-child p {
     font-size: 14px;
