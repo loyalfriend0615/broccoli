@@ -23,7 +23,7 @@
   font-size: 64px;
   color: #004AAD;
   font-weight: 700;
-  margin: 65px auto auto auto;
+  margin: 60px auto auto auto;
   font-family: Biski-Bold;
 }
 
@@ -72,6 +72,7 @@
   max-width: 1440px;
   padding: 30px 80px;
   border-radius: 8px;
+  border: solid 4px #004AAD;
   background-image: url("./assets/img/background.png");
   background-position: center;
   font-family: Biski-Regular;

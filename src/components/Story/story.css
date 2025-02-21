@@ -4,6 +4,7 @@
     background-image: url("../../assets/img/background.png");
     background-position: center;
     border-radius: 8px;
+    border: solid 4px #004AAD;
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 20px;
