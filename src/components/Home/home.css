@@ -5,19 +5,28 @@
 #homepage {
     width: 100%;
     margin: 0 0 20px 0;
-    background-image: url("../../assets/img/background.png");
-    background-size: cover;
-    background-position: center;
+    /* background-image: url("../../assets/img/background.png"); */
+    /* background-size: cover; */
+    /* background-position: center; */
     border-radius: 8px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 #homepage>div:last-child {
+    background-image: url("../../assets/img/background.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
     width: 40%;
+    text-align: center;
 }
 #homepage>div:first-child {
-    width: 60%;
+    background-image: url("../../assets/img/background.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    width: calc(60% - 10px);
 }
 #homepage>div:first-child>div a {
     padding: 0 10px;
@@ -52,7 +61,7 @@
     font-family: Biski-Bold;
 }
 #homepage>div:last-child img {
-    margin: 100px auto 60px 50px;
+    margin: 100px auto 60px auto;
     border: solid 10px white;
     box-sizing: border-box;
     border-radius: 10px;
@@ -97,11 +106,15 @@
         padding-bottom: 30px;
         width: 100%;
         order: 2;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
     }
     #homepage>div:last-child img {
         margin-bottom: 10px;
     }
     #homepage>div:last-child {
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
         order: 1;
         width: 100%;
     }
