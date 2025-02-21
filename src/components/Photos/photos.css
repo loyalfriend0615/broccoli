@@ -7,7 +7,7 @@
     /* background-image: url("../../assets/img/background.png"); */
     padding-bottom: 1px;
     margin-bottom: 20px;
-    padding-top: 60px;
+    padding-top: 0px;
 }
 #photos>div {
     width: 100%;
@@ -20,7 +20,7 @@
     padding: 0 160px;
     box-sizing: border-box;
     position: relative;
-    margin-bottom: 86px;
+    margin-bottom: 20px;
 }
 #photos h1 {
     margin: auto;
@@ -70,7 +70,7 @@
     }
     #photos>div:last-child {
         display: flex;
-        margin-bottom: 86px;
+        margin-bottom: 20px;
     }
 }
 

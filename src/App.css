@@ -23,7 +23,7 @@
   font-size: 64px;
   color: #004AAD;
   font-weight: 700;
-  margin: 105px auto auto 56px;
+  margin: 65px auto auto auto;
   font-family: Biski-Bold;
 }
 
@@ -31,8 +31,9 @@
   font-size: 44px;
   font-family: Biski-Bold;
   font-weight: 700;
-  line-height: 83.2px;
+  line-height: 50px;
   color: #004AAD;
+  padding-top: 10px;
 }
 
 #header h3, #footer h3, #hiscoin h3, #home h3, #story h3, #photos h3, #video h3, #whybroc h3, #whatsnext h3, #contact h3 {

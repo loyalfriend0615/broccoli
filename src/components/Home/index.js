@@ -20,6 +20,7 @@ function Home() {
                     <h1>
                         The Legend of Broccoli<br/>
                         CZ's Dog, and his Meme Coin<br/>
+                        <br/>
                         <b>THE Broccoli $BROC</b>
                     </h1>
                     <h2>Join Our Community</h2>
