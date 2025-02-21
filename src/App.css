@@ -136,6 +136,14 @@
   font-size: 20px!important;
 }
 
+.social img:hover {
+  margin-top: -17px;
+  margin-left: -9px;
+  margin-right: -9px;
+  width: 52px;
+  height: 52px;
+}
+
 @media (max-width: 1379px) {
   #header h2, #footer h2, #hiscoin h2, #home h2, #story h2, #photos h2, #video h2, #whybroc h2, #whatsnext h2, #contact h2 {
     font-size: 3em;

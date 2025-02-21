@@ -24,7 +24,7 @@ function Home() {
                         <b>THE Broccoli $BROC</b>
                     </h1>
                     <h2>Join Our Community</h2>
-                    <div>
+                    <div className="social">
                         <a href="#">
                             <img src={twitter} alt="twitter" />
                         </a>
@@ -54,7 +54,7 @@ function Home() {
             </div>
             <div className="copy">
                 <span>Contract Adress:</span>
-                <input type="text" id="ca1" value="qfasdfagadsasfdqaefadgadsgasdfasdfasdfasdfasdfafdadsfasdffe" readonly />
+                <input type="text" id="ca1" value="qfasdfagadsasfdqaefadgadsgasdfasdfasdfasdfasdfafdadsfasdffe" readOnly />
                 <button id="btn1" onClick = {copyToClipboard1}>Copy CA</button>
             </div>
         </div>

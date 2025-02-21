@@ -29,7 +29,7 @@ function WhatsNext() {
             </div>
             <div className="copy">
                 <span>Contract Adress:</span>
-                <input type="input" id="ca2" value="qfasdfagadsasfdqaefadgadsgasdfasdfasdfasdfasdfafdadsfasdffe" readonly></input>
+                <input type="input" id="ca2" value="qfasdfagadsasfdqaefadgadsgasdfasdfasdfasdfasdfafdadsfasdffe" readOnly></input>
                 <button id="btn2" onClick={copyToClipboard2}>Copy CA</button>
             </div>
         </div>

@@ -61,7 +61,7 @@ function Footer() {
                     <p>
                         ⓒ 2025 THE Broccoli Meme. All rights reserved.
                     </p>
-                    <div id="social">
+                    <div className="social">
                         <a href="#">
                             <img src={twitter} alt="twitter" />
                         </a>
