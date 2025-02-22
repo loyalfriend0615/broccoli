@@ -25,3 +25,9 @@
     background-image: url("../../assets/img/background.png");
     box-sizing: border-box;
 }
+
+@media (max-width: 520px) {
+    #video video {
+        padding: 5px;
+    }
+}
