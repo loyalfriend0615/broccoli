@@ -20,6 +20,9 @@
     border-radius: 8px;
     width: 45%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 #homepage>div:first-child {
     background-image: url("../../assets/img/background.png");
@@ -99,9 +102,6 @@
     #homepage h2 {
         font-size: 25px;
         margin-top: 18px;
-    }
-    #homepage>div:last-child img {
-        margin-left: 0;
     }
 }
 

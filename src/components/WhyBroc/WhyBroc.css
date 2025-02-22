@@ -109,4 +109,8 @@
     .why1 {
         transform: translateX(0px);
     }
+    
+    #whybroc>div:first-child {
+        transform: translateX(0);
+    }
 }

@@ -19,7 +19,7 @@
 }
 
 #hiscoin .landing img {
-    max-width: 550px;
+    max-width: 350px;
     width: 95%;
     height: auto;
     margin: 40px auto 40px auto;
@@ -31,6 +31,9 @@
     border-radius: 8px;
     width: 45%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 #hiscoin .landing>div:first-child {
     background-image: url("../../assets/img/background.png");
@@ -53,7 +56,6 @@
 }
 
 
-
 .legend.why {
     margin-top: 0!important;
     transform: translateX(-10px);
@@ -69,9 +71,25 @@
 }
 
 @media (max-width: 1235px) {
+    #hiscoin .landing p {
+        margin: 0 30px;
+    }
 }
 
 @media (max-width: 1074px) {
+    #hiscoin .landing>div:first-child {
+        width: 100%;
+        order: 2;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+    }
+    #hiscoin .landing>div:last-child {
+        width: 100%;
+        order: 1;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
 }
 
 @media (max-width: 767px) {
@@ -84,6 +102,9 @@
 
 @media (max-width: 479px) {
     .landing {
-        margin: 0 5px 0px 5px!important;
+        margin: 60px 5px!important;
+    }
+    .legend.why {
+        transform: translateX(0);
     }
 }
