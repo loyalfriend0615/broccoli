@@ -70,6 +70,12 @@
     line-height: 26px;
 }
 
+@media (max-width: 1379px) {
+    #hiscoin .landing h3 {
+        font-size: 35px;
+    }
+}
+
 @media (max-width: 1235px) {
     #hiscoin .landing p {
         margin: 0 30px;
@@ -97,6 +103,12 @@
         border-bottom-left-radius: 0;
     }
 
+}
+
+@media (max-width: 824px) {
+    #hiscoin .landing h3 {
+        font-size: 26px;
+    }
 }
 
 @media (max-width: 767px) {

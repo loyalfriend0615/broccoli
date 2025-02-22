@@ -53,6 +53,12 @@
     }
 }
 
+@media (max-width: 824px) {
+    #story h2 {
+        font-size: 26px;
+    }
+}
+
 @media (max-width: 768px) {
     #story>p {
         padding: 0 25px;

@@ -91,6 +91,9 @@
 }
 
 @media (max-width: 767px) {
+    #photos>div:last-child img {
+        border: solid 6px #ffe9a0dc;
+    }
     #photos>div:last-child {
         padding: 0 80px;
         align-items: center;
