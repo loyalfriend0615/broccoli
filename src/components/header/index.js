@@ -32,22 +32,22 @@ function Header() {
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a href="/#story">
+                                <a onClick={toggleMenu} href="/#story">
                                     <span>STORY</span>
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a href="/#photos">
+                                <a onClick={toggleMenu} href="/#photos">
                                     <span>GALLERY</span>
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a href="/#hiscoin">
+                                <a onClick={toggleMenu} href="/#hiscoin">
                                     <span>$BROC</span>
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a href="/#whybroc">
+                                <a onClick={toggleMenu} href="/#whybroc">
                                     <span>WHY BROC</span>
                                 </a>
                             </li>

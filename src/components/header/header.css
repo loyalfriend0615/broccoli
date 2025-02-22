@@ -284,6 +284,6 @@ bottom: 10px;
 
 @media (max-width: 430px) {
     .nav-logo>a>span {
-        display: none;
+        font-size: 18px;
     }
 }
