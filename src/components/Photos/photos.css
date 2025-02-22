@@ -15,9 +15,11 @@
     justify-content: center;
 }
 #photos>div:nth-child(2) {
+    max-width: 1126px;
     width: 100%;
     justify-content: space-between;
-    padding: 0 160px;
+    margin-left: auto;
+    margin-right: auto;
     box-sizing: border-box;
     position: relative;
     margin-bottom: 20px;
