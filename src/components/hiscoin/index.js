@@ -15,10 +15,14 @@ function Hiscoin() {
                     </h3>
                     <p>
                         Another Broccoli Coin? Nah. This is <b>THE Broccoli</b>  Coin.
+                    </p>
+                    <p>
                         Listen, we get it. Meme coins named Broccoli have come and gone. They pumped, they dumped, they disappeared into the blockchainabyss. But this? This isn't just another random dog-themed token.
                     </p>
                     <p>
                         Broccoli isn't just a name—it's a legend. A Belgian Malinois with a story that no other meme coin can match. He didn't just appear out ofthin air; he arrived with a passport, a destiny, and the energy of a bull market on steroids.
+                    </p>
+                    <p>
                         This Broccoli didn't just pop up overnight. He showed up at CZ's doorstep—literally.
                     </p>
                 </div>

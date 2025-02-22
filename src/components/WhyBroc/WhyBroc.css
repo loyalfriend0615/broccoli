@@ -6,6 +6,9 @@
     width: 100%;
     margin: auto;
 }
+#whybroc>div:first-child {
+    transform: translateX(10px);
+}
 #whybroc {
     margin-top: 60px;
 }
