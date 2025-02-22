@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { useState, useEffect } from "react";
 
 
@@ -14,6 +14,18 @@ function toggleMenu() {
 }
 
 function Header() {
+    const location = useLocation();
+  
+    useEffect(() => {
+      if (location.hash) {
+        const element = document.getElementById(location.hash.substring(1));
+        if (element) {
+          setTimeout(() => {
+            element.scrollIntoView({ behavior: "smooth" });
+          }, 100); // Delay ensures the DOM is loaded
+        }
+      }
+    }, [location]);
     return (
         <div id="header-container">
             <div id="header">
