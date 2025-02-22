@@ -1,34 +1,43 @@
-#hiscoin .landing .why:last-child img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate3D(-50%, -50%, 0);
+
+#hiscoin h2 {
+    margin: 65px 10px 0 60px;
 }
-#hiscoin .landing .why {
-    width: 45%!important;
-}
+
 #hiscoin .landing {
-    margin: auto;
-    margin-left: 5px;
-    margin-right: 5px;
-    /* background-image: url('../../assets/img/background.png'); */
-    /* background-position: center; */
+    margin: 60px 5px;
     border-radius: 8px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+#hiscoin .landing h3 {
+    text-align: center;
+}
+
 #hiscoin .landing img {
     max-width: 550px;
-    width: 80%;
+    width: 95%;
     height: auto;
-    float: right;
+    margin: 40px auto 40px auto;
 }
-#hiscoin h2 {
-    margin: 65px 10px 0 60px;
+
+#hiscoin .landing>div:last-child {
+    background-image: url("../../assets/img/background.png");
+    background-position: center;
+    border-radius: 8px;
+    width: 45%;
+    text-align: center;
 }
+#hiscoin .landing>div:first-child {
+    background-image: url("../../assets/img/background.png");
+    background-position: center;
+    border-radius: 8px;
+    width: calc(55% - 20px);
+}
+
 #hiscoin .landing p {
-    margin: 0px 10px 0 59px;
+    margin: 0px 60px 0 60px;
     font-family: Biski-Regular;
     font-size: 16px;
     font-weight: 500;
@@ -37,10 +46,7 @@
     padding-bottom: 60px;
 }
 
-.landing .why p {
-    text-align: start;
-    margin-left: 10px!important;
-}
+
 
 .legend.why {
     margin-top: 0!important;
@@ -56,51 +62,9 @@
 }
 
 @media (max-width: 1235px) {
-    #hiscoin .landing .why:first-child {
-        margin-top: 0!important;
-        border-top: none!important;
-        border-top-left-radius: 0;
-        border-top-right-radius: 0;
-        order: 2;
-        z-index: 10;
-    }
-    #hiscoin .landing .why:last-child img {
-        position: relative;
-        position:initial;
-        transform: translate3d(0,0,0);
-    }
-    #hiscoin .landing .why:last-child {
-        border-bottom-left-radius: 0;
-        border-bottom-right-radius: 0;
-        border-bottom: none!important;
-        margin-bottom: 0!important;
-        order: 1;
-        z-index: 1;
-    }
-    #hiscoin .landing .why {
-        width: 100%!important;
-    }
 }
 
 @media (max-width: 1074px) {
-    .landing {
-        text-align: center;
-    }
-    .landing h2 {
-        margin: 10px!important;
-        line-height: 55px;
-    }
-    #hiscoin .landing p {
-        margin-bottom: 20px;
-        margin-left: 20px;
-        margin-right: 20px;
-        padding: 0 10px;
-        box-sizing: border-box;
-    }
-    #hiscoin .landing p:last-child {
-        padding-bottom: 60px;
-        margin-bottom: 0;
-    }
 }
 
 @media (max-width: 767px) {

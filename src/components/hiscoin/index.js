@@ -8,7 +8,7 @@ function Hiscoin() {
     return (
         <div id="hiscoin">
             <div className="landing">
-                <div className="why">
+                <div>
                     {/* <img src={HiscoinImage} alt="his coin" /> */}
                     <h3>
                         $BROC - The Only Broccoli That Matters
@@ -22,7 +22,7 @@ function Hiscoin() {
                         This Broccoli didn't just pop up overnight. He showed up at CZ's doorstep—literally.
                     </p>
                 </div>
-                <div className="why">
+                <div>
                     <img src={HiscoinImage} alt="his coin img"/>
                 </div>
             </div>
