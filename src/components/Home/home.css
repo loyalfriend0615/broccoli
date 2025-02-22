@@ -27,9 +27,12 @@
     background-position: center;
     border-radius: 8px;
     width: calc(55% - 20px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 #homepage>div:first-child>div a {
-    padding: 0 20px;
+    padding: 10px 10px;
 }
 #homepage>div:first-child>div {
     font-size: 3em;
@@ -57,6 +60,10 @@
     line-height: 60px;
     text-align: center;
     padding-top: 0;
+    margin-top: 40px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 #homepage h1 b {
     font-family: Biski-Bold;
@@ -73,6 +80,16 @@
 .social img {
     width: 35px;
     height: 35px;
+}
+
+#home .social {
+    max-width: 480px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 @media (max-width: 1321px) {
@@ -94,20 +111,22 @@
         height: auto;
     }
     #homepage h1 {
-        margin-left: 10px;
         font-size: 35px;
     }
     #home .social {
         flex-wrap: nowrap;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0;
+        padding-right: 0;
     }
     #homepage>div:first-child>div a {
-        padding: 0 0;
+        padding: 10px 10px;
     }
 }
 
 @media (max-width: 890px) {
     #homepage h1 {
-        margin-left: 10px;
         font-size: 26px;
         margin-top: 0px;
         line-height: 36px;
@@ -163,8 +182,6 @@
 
 @media (max-width: 673px) {
     #homepage .social {
-        width: auto;
-        display: flex;
         flex-wrap: wrap;
     }
 }
@@ -183,6 +200,6 @@
         margin-top: 80px;
     }
     #homepage>div:first-child>div a {
-        padding: 0 5px;
+        padding: 10px 10px;
     }
 }

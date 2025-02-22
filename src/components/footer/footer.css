@@ -68,14 +68,6 @@
     font-weight: 700;
     color: #004AAD;
 }
-#home .social {
-    max-width: 586px;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
 .social {
     padding: 10px 20px;
 }
