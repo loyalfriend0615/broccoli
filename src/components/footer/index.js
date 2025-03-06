@@ -20,7 +20,7 @@ function Footer() {
                     <div id="disclaimer">
                         <img src={logo} width="80px" height="80px" alt="The logend of broccoli cz's dog" />
                         <p>
-                            <Link to='/disclaimer'><span>Disclaimer:</span></Link>  The Broccoli Meme is intended to serve as an expression of support for and engagement with the ideals and beliefs embodied by the symbol "$BROC" and the associated artwork. It is not intended to constitute an investment opportunity, investment contract, or security of any kind.
+                            <Link to='/disclaimer'><span>Disclaimer:</span></Link>  The Broccoli Meme is intended to serve as an expression of support for and engagement with the ideals and beliefs embodied by the symbol "$BROC" and the associated artwork. It is not intended to constitute an investment opportunity, investment contract, or security of any kind.<br/><br/>
                             $BROC is a meme coin with no intrinsic value or expectation of financial return. The coin is completely useless and for entertainment purposes only.
                         </p>
                     </div>
