@@ -16,9 +16,9 @@ function Contact() {
         e.preventDefault();
     
         // Replace these with your EmailJS credentials
-        const serviceId = "service_1kxibqc";
-        const templateId = "template_jwv3jv7";
-        const publicKey = "RZeLqZZY8D09xiGN3";
+        const serviceId = "service_h03235z";
+        const templateId = "template_ghtg3fp";
+        const publicKey = "btmUZv4YgnRXCgFpv";
     
         emailjs.send(serviceId, templateId, formData, publicKey)
           .then((response) => {

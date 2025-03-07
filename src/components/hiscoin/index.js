@@ -1,6 +1,6 @@
 import React from 'react';
 
-import HiscoinImage from '../../assets/img/hiscoin.png';
+import HiscoinImage from '../../assets/img/logo192.png';
 
 import './hiscoin.css';
 
